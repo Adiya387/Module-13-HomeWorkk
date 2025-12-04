@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Страница-1" id="KANIvtkPIZ92-_Z6GwSU">
+    <mxGraphModel dx="1617" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-9" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-3" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1740" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-10" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mJVLkuQQhVN0SpWLwS5e-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-11" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SelectTicket /&amp;nbsp;&lt;div&gt;пользователь выбирает билет&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0889" y="-4" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-4" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="&lt;code data-start=&quot;430&quot; data-end=&quot;441&quot;&gt;Idle&lt;/code&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="450" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-14" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-15" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="DispenseTicket /&lt;div&gt;&amp;nbsp;выдать билет&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.237" y="-3" as="geometry">
+            <mxPoint x="14" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-18" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-19" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cancel / отмена и возврат денег" vertex="1">
+          <mxGeometry relative="1" x="0.3377" y="-4" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-5" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="&lt;code data-start=&quot;430&quot; data-end=&quot;441&quot;&gt;MoneyReceived&lt;/code&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="1150" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-12" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-13" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="InsertMoney /&amp;nbsp;&lt;div&gt;внесена необходимая сумма&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.117" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-16" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-17" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cancel / отмена до оплаты" vertex="1">
+          <mxGeometry relative="1" x="-0.0078" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-6" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="&lt;code data-start=&quot;430&quot; data-end=&quot;441&quot;&gt;WaitingForMoney&lt;/code&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="800" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-26" edge="1" parent="1" source="mJVLkuQQhVN0SpWLwS5e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="75" />
+              <mxPoint x="1620" y="75" />
+            </Array>
+            <mxPoint x="1730" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-28" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Close /&amp;nbsp;&lt;div&gt;завершение операции&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0066" y="-3" as="geometry">
+            <mxPoint x="-1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-7" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="&lt;code data-start=&quot;430&quot; data-end=&quot;441&quot;&gt;TicketDispensed&lt;/code&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="1430" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="mJVLkuQQhVN0SpWLwS5e-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="270" />
+              <mxPoint x="1755" y="270" />
+            </Array>
+            <mxPoint x="870.0204081632653" y="250" as="sourcePoint" />
+            <mxPoint x="1755" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-24" connectable="0" parent="mJVLkuQQhVN0SpWLwS5e-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Close / завершение транзакции" vertex="1">
+          <mxGeometry relative="1" x="0.8976" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJVLkuQQhVN0SpWLwS5e-8" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="&lt;code data-start=&quot;430&quot; data-end=&quot;441&quot;&gt;TransactionCanceled&lt;/code&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="800" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
